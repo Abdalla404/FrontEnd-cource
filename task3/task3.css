@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 30px;
+}
+    
+header nav ul{
+ display: flex;
+ gap: 100px;
+ list-style: none;
+}
+header nav ul a{
+    text-decoration: none;
+}
+.first{
+    display: inline-block;
+    margin: 100px;
+    padding: 60px;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+    width: 150px;
+   
+}
+.t{
+  margin: 30px;
+
+ }
+.r{
+    margin: 50px;
+}
+.secound{
+     display: inline-block;
+    margin: 100px;
+    padding: 60px;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+    width: 150px;
+
+
+}
+.third{
+    display: inline-block;
+    margin: 100px;
+    padding: 60px;
+    border-color:brown;
+    border-width: 5px;
+    border-style: solid;
+    width: 150px;
+  
+}
+.forth{
+    display: inline-block;
+    margin: 100px;
+    padding: 60px;
+    border-color:brown;
+    border-width: 5px;
+    border-style: solid;
+    width: 150px;
+  
+}
+.fifth{
+    display: inline-block;
+    margin: 100px;
+    padding: 60px;
+    border-color:brown;
+    border-width: 5px;
+    border-style: solid;
+    width: 150px;
+  
+}
+.sixth{
+    display: inline-block;
+    margin: 100px;
+    padding: 60px;
+    border-color:brown;
+    border-width: 5px;
+    border-style: solid;
+    width: 150px;
+  
+}
+.Foot{
+    background-color: rgba(190, 190, 175, 0.782);
+    text-align: center;
+    font-size: large;
+    padding: 80px;
+}
