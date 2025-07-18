@@ -1,0 +1,106 @@
+.main{
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.body{
+    background-color:blanchedalmond;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    margin-left:100px ;
+    width: 70%;
+    height: 50%;
+}
+.title{
+    margin-left:100px ;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight:900 ;
+}
+.paragraph{
+margin-left:100px ;
+}
+.first{
+    color: brown;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left:30px ;
+}
+.section{
+    background-color: rgba(255, 192, 203, 0.248);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 40px ;
+}
+.section1{
+    border-bottom: 1px rgba(0, 0, 0, 0.173) solid;
+}
+.section2{
+    border-bottom: 1px rgba(0, 0, 0, 0.173) solid;
+}
+.cont{
+    padding: 10px;
+}
+.Ingredients{
+  margin-left:30px ;
+  margin-top: 30px ;
+  font-size: 20px;
+  font-weight: 800;
+  color: brown;
+}
+.Instructions{
+    margin-left:30px ;
+    margin-top: 30px ;
+    font-size: 20px;
+    font-weight: 800;
+    color: brown;
+}
+.Nutrition{
+    margin-left:30px ;
+    margin-top: 30px ;
+    font-size: 20px;
+    font-weight: 800;
+    color: brown;
+}
+.des{
+    margin-left: 20px;
+    padding: 15px;
+}
+.cont{
+    border-bottom: 1px rgba(0, 0, 0, 0.173) solid;
+    margin-bottom: 10px;
+}
+.calories{
+    margin-left: 40px;
+}
+.caloriesvalue{
+margin-left: 200px;
+color: brown;
+margin-bottom: 10px;
+}
+.carbs{
+      margin-left: 40px;
+}
+.carbsvalue{
+    margin-left: 235px;
+    color: brown;
+}
+.Protin{
+    margin-left: 40px;
+}
+.protinvalue{
+    margin-left: 230px;
+    color: brown;
+}
+.Fat{
+     margin-left: 40px;
+}
+.Fatsvalue{
+    margin-left: 250px;
+    color: brown;
+}
