@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root {
+  --primary-color: #4caf4f;
+  --lite-primary-color: #4caf4f57;
+  --tint-color: #e8f5e9;
+  --main-grey: #4d4d4d;
+  --sec-grey: #717171;
+  --text-grey: #18191f;
+  --main-black: #263238;
+  --silver-color: #f5f7fa;
+  --main-white: #ffffff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;  
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px ;
+}
+.custom-btn1{
+    background-color: var(--primary-color);
+    color: var(--main-white);
+    border: none;
+    border-radius: 6px;
+    width: 91px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.navlinks ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.navlinks ul li a {
+    color: var(--text-grey);
+    font-size: 16px;
+}
+.Logo{
+    width: 154px;
+    height: 24px;
+}
+.authbuttons{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.authbuttons .custom-btn{
+    border: none;
+    background: none;
+    font-size: 14px ;
+    color:#4caf4f ;
+    line-height: 20px;
+    font-weight: 500;
+}
+.hero-section{
+  height: 40%;
+  background-color: var(--silver-color);
+}
+.hero-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 ;
+}
+.hero-text{
+    width: 64%;
+}
+.hero-image{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-description{
+    margin-bottom: 20px;
+    color:  var(--sec-grey);
+}
+.hero-title{
+    width: 657px;
+    height: 152px;
+    font-size: 64px;
+    font-weight: 600px;
+    line-height: 76px;
+    margin-bottom: 20px;
+}
+.hero-title span{
+    color: var(--primary-color);
+}
+.hero-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+}
+.section{
+    width: 1440px;
+    height: 190px;
+    align-items: center;
+    justify-content: center;
+}
+.Section .text{
+    width: 1110px;
+    height: 76px;
+    gap: 8px;
+    margin-left: 390px;
+}
+.Section h2{
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+.Section p{
+    color: var(--text-grey);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.image{
+   width: 1152px;
+   height: 98px;
+}
+.Section img{
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    align-items: center;
+   justify-content: space-between;
+   margin: 50px;
+   padding: 10px;
+   
+}
+.Section .image{
+    margin-bottom: 80px;
+}
+.section1 .container{
+    width: 1440px;
+    height: 416px;
+}
+.section1 .text{
+     margin-left: 390px;
+}
+.section1 h2{
+    width: 542px;
+    height: 88px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px; 
+    
+}
+.section1 p{
+    color: var(--sec-grey);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.section1 .body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+    height: 280px;
+}
+.section1 .first{
+    width: 299px;
+    height: 260px;
+}
+.section1 .secound{
+     width: 299px;
+    height: 280px;
+}
+.section1 .third{
+width: 299px;
+    height: 260px;
+}
+.section1 .font{
+    font-size:28px ;
+    font-weight: 700;
+    line-height: 36px;
+}
+.section1 .sentense{
+    width: 251px;
+    height: 60px;
+       
+}
+.section1 img{
+    margin-left: 20px; 
+}
+.section1 .describe{
+    margin-left: 140px;
+}
+.section2 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140;
+    height: 280;
+}
+.section2 .maincontentt{
+    width: 661px;
+    height: 268px;
+    gap: 32px;
+}
+.section2 .Text{
+    width: 601px;
+    height: 184px;
+}
+.section2 .font{
+margin-bottom: 16px;
+}
+.section2 .paragraph{
+    color: var(--sec-grey);
+}
+.section3 .container{
+    width: 1140;
+    height: 280;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--silver-color);
+
+}
+.section3 .text{
+
+    width: 540px;
+    height: 120px;
+}
+.section3 .maintext{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+.section3 .maintext1{
+  margin-bottom: 10px;
+}
+.section3 .maintext2{
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+.section3 .paragraph{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+
+}
+.section3 .right{
+    width: 540px;
+    height: 160px;
+   gap: 40px;
+}
+.section3 .firstsection{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  
+}
+.section3 .secoundsection{
+    display: flex;
+    justify-content: space-between;
+}
+.section3 .newline{
+    display: flex;
+    width: 255px;
+    height: 60px;
+}
+.section3 .word{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+   color: var(--sec-grey);
+}
+.section3 .secound .word{
+margin-left: 12px;
+}
