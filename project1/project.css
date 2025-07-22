@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-primary: #ed1c24;
+  --color-primary-dark: #c00;
+  --color-gray-light: #ccc;
+  --color-gray: #666;
+  --color-gray-dark: #333;
+  --color-overlay: rgba(0, 0, 0, 0.8);
+  --color-shadow-light: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 2000px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container{
+    color: var(--color-white);
+}
+header{
+      height: 800px;
+      background-image: url("images/banner-bg.png");
+}
+header .font{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px ;
+    padding: 20px;
+
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links ul li a{
+ font-size: 20px;
+
+}
+.nav-links ul li :hover{
+    border: 10px solid #ed1c24 ;
+    background: #ed1c24;
+    border-radius: 12px;
+
+}
+.nav-links ul li i :hover{
+    border: 10px solid #ed1c24 ;
+    background: #ed1c24;
+    border-radius: 12px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+    padding: 50px;
+}
+.bottom .left{
+    font-size: 40px;
+}
+.bottom .button{
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 6px;
+    color: var(--color-white);
+    background-color: #ed1c24;
+}
