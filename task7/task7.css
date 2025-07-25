@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px ;
+}
+.body{
+ max-width: 1100px;
+ margin: 0 auto;
+ background-color: #0033cc3f;
+}
+.Text{
+    padding: 10px;
+    text-align: center;
+}
+.main{
+    background-color: rgba(255, 255, 255, 0.797);
+}
+.Text h1{
+    font-size: 46px;
+    color: #0033cc;
+    margin-bottom: 15px;
+}
+.Text p{
+    font-size: 20px;
+    color:#89939E;
+}
+.section1{
+   background-color: white;
+    border-radius: 30px;
+    margin: 0 90px; 
+    margin-bottom: 90px;
+}
+.section1 .font{
+    font-size: 20px;
+    color: #0033cc;
+    margin-bottom: 30px;
+}
+.section1 .signin{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:1100px){
+    .section1 .signin{
+        display: block;
+    }
+    .section1 .signin .Register-first input{
+        width: 800px;
+    }
+}
+.section1 .signin h2{
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgba(0, 0, 0, 0.655);
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.section1 .signin .star{
+    display: flex;
+    color: red;
+    font-size: 7px;
+    
+}
+.section1 .signin input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-color: #89939e32;
+
+}
+.section1 .signin .Register-first{
+    margin-bottom: 20px;
+}
+.section1 .signin .Register-secound input{
+    width: 870px;
+}
+.section1 .signin input:hover{
+    border-color: #0033cc;
+}
+.section2{
+    background-color: white;
+     border-radius: 30px;
+    margin: 0 90px; 
+     margin-bottom: 90px;
+}
+.section2 .text{
+   font-size: 20px;
+    color: #0033cc;
+    margin-bottom: 30px;
+}
+.section2 .boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.section2 .boxes .box h2{
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgba(0, 0, 0, 0.655);
+    margin-bottom: 10px;
+}
+.section2 .boxes .box input{
+     width: 400px;
+    height: 40px;
+    margin-bottom:20px ;
+    border-radius: 10px;
+     padding: 10px;
+    font-size: 16px;
+    border-color: #89939e32;
+
+}
+.section2 .boxes input:hover{
+    border-color: #0033cc;
+}
+@media(max-width:1100px){
+    .section2 .boxes{
+        display: block;
+    }
+    .section2 .boxes .box input{
+        width:800px ;
+    }
+}
+.section3 {
+    background-color: white;
+     border-radius: 30px;
+     margin: 0 90px; 
+     margin-bottom: 90px;
+    
+}
+.section3 .text{
+    font-size: 20px;
+    color: #0033cc;
+    margin-bottom: 30px;
+}
+.section3 .box1 .star{
+    display: flex;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.781);
+    margin-bottom: 20px;
+}
+.section3 .box1 .star i{
+    color: red;
+    font-size: 7px;
+}
+.section3 .box1 .Gender{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.655);
+    display: flex;
+    margin-bottom: 40px;
+}
+.section3 .box1 button{  
+    width: 120px;
+    height: 50px;
+    margin-right: 40px;
+    border-color: #89939E;
+    background-color: white;
+    border-radius: 7px;
+     font-size: 20px;
+}
+.section3 .box1 button:hover{
+   background-color: #0033cc18;
+   border-color: #0033cc;
+}
+.section3 .box1 .country{
+    display: flex;
+    flex-direction: column;
+}
+.section3 .box1 select{
+     padding: 10px;
+    font-size: 16px;
+    border-color: #89939e32;
+}
+.section3 .box1 .country select {
+    width: 800px;
+    height: 50px;
+    border-color: #89939e3e;
+    background-color: white;
+    border-radius: 7px;
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+.section3 .box1 .country select option{
+    font-size: 80px;
+}
+
+@media (max-width:1100px){
+    .section3 .box1 .hoppies-section {
+        display: block;
+    }
+    .section3 .box1 .hoppies-section button{
+        width: 800px;
+         text-align: start;
+           padding-left: 20px;
+    }
+    .section3 .box1 .Gender {
+        display: block;
+    }
+     .section3 .box1 .Gender button{
+        margin-bottom: 20px;
+        width: 800px;
+        text-align: start;
+        padding-left: 20px;
+     }
+}
+.section3 .box1 .country select:hover{
+   border-color:dimgrey;
+}
+.section3 .hoopies p{
+     font-size: 28px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.781);
+    margin-bottom: 20px;
+}
+.section3 .hoppies-section{
+    display: flex;
+}
+.section3 .hoppies-section button{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.section4 {
+    background-color: white;
+     border-radius: 30px;
+     margin: 0 90px; 
+     margin-bottom: 90px;
+    
+}
+.section4 .font{
+    font-size: 20px;
+    color: #0033cc;
+    margin-bottom: 30px;
+}
+.section4 .box1 .star{
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+   color: rgba(0, 0, 0, 0.726);
+    margin-bottom: 12px;
+}
+.section4 .box1 .star i{
+    color: red;
+    margin-left: 6px;
+    font-size: 7px;
+}
+.section4 .box1 button{
+     width: 800px;
+     height: 80px;
+    border: 1px #89939e3e dashed;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.section4 .box1 textarea{
+    border-radius: 10px;
+   text-align: start;
+   margin-bottom: 20px;
+   border-color: #89939e3e;
+}
+.section4 .box1 textarea:hover{
+   border-color: #89939eaa;
+   transition: 0.3s ease;
+}
+.section4 .box1 .date input{
+     width: 800px;
+    height: 60px;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #89939e3e;
+}
+.foot{
+     margin: 0 90px; 
+     margin-bottom: 90px;
+}
+.foot button{
+    width: 900px;
+    background-color: #0033cc;
+    height: 60px;
+    color: white;
+     border-radius: 10px;
+     border-color: transparent;
+}
+.foot button {
+  cursor: pointer;
+}
