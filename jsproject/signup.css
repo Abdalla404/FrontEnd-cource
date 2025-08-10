@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 40px;
+    padding: 20px;
+}
+.container1{
+    margin: 0 auto;
+}
+ul{
+    list-style: none;  
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3{
+    font-family: Arial, Helvetica, sans-serif
+}
+header{
+   margin-bottom: 60px;
+   border-bottom: 1px solid #E5E8EB;
+}
+.logo{
+    display: flex;
+    gap:16px ;
+    align-items: center;
+}
+.logo img{
+    width: 16px;
+    height: 16px;
+}
+.logo h2{
+    font-family: 700px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0D141C;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.signin h2{
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 35px;
+}
+.signin input{
+    width: 448px;
+    height: 56px;
+    background-color: #EBEDF2;
+    padding: 16px;
+    border-color: transparent;
+    border-radius: 12px;
+}
+.signin button{
+     width: 448px;
+    height: 56px;
+    background-color: #DBE8F2;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 12px;
+    border-color: transparent;
+}
+.signin p,a{
+    color: #5C738A;
+}
